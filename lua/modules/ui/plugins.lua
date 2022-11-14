@@ -7,7 +7,7 @@ local conf = require('modules.ui.config')
 
 plugin({ 'glepnir/zephyr-nvim', config = conf.zephyr })
 
-plugin({ 'glepnir/dashboard-nvim', config = conf.dashboard })
+--plugin({ 'glepnir/dashboard-nvim', config = conf.dashboard })
 
 plugin({
   'glepnir/galaxyline.nvim',
