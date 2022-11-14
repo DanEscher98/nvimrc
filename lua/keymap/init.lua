@@ -26,4 +26,7 @@ nmap({
   { '<Leader>b', cmd('Telescope buffers'), opts(noremap, silent) },
   { '<Leader>fa', cmd('Telescope live_grep'), opts(noremap, silent) },
   { '<Leader>ff', cmd('Telescope find_files'), opts(noremap, silent) },
+  { '<Leader>sv', cmd('lua ReloadConfig()'), opts(noremap) },
+  -- disable highlightling
+  { '<Leader><Space>', cmd('noh'), opts(noremap) },
 })
